@@ -22,21 +22,24 @@
     <h2 class="main__title">Especifique el número de dispositivos que utilizan electricidad:</h2>
     <ul class="list" id="list">
       <!-- Asignación #3 -->
-      <li class="list__item">
-        <a href="{{Establecer la ruta}}">
+        <a href={{lights + "/3" }}>
           <img class="item__img" src="../static/img/battery.svg" alt="battery">
           <span>3-5 aparatos</span></a>
       </li>
       <li class="list__item">
-        <a href="{{Establecer la ruta}}">
+       <a href={{lights + "/7" }}>
           <img class="item__img" src="../static/img/battery.svg" alt="battery">
           <span>6-8 aparatos</span></a>
       </li>
       <li class="list__item">
-        <a href="{{Set the route}}">
+        <a href={{lights + "/10" }}>
           <img class="item__img" src="../static/img/battery.svg" alt="battery">
           <span>10+ aparatos</span></a>
       </li>
+      <li class="list__item">
+        <a href="{{lights + "/10"}}">
+          <img class="item__img" src="../static/img/recicle.png" alt="battery">
+          <span>10 y más</span></a>
       <!--  -->
     </ul>
     {% endblock %}
